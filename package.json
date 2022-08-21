@@ -1,0 +1,25 @@
+{
+  "name": "crud-typescript-typeorm",
+  "version": "1.0.0",
+  "description": "Uma criando uma api com Typescript e TypeORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertosousa86/crud-typescript-express-typeorm-docker.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Node",
+    "Mysql",
+    "TypeORM"
+  ],
+  "author": "Roberto Sousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robertosousa86/crud-typescript-express-typeorm-docker/issues"
+  },
+  "homepage": "https://github.com/Robertosousa86/crud-typescript-express-typeorm-docker#readme"
+}
