@@ -22,3 +22,22 @@ npx gitignore node
 Esse comando cria automaticamente um arquivo `.gitignore` com todos os arquivos básicos que devem ser ignorados em um projeto node.
 
 Para mais informações sobre `git` e GitHub: https://github.com
+
+## Iniciando o projeto e adicionando as primeiras dependências
+
+- Para iniciarmos um novo projeto Node executamos o comando `npm init --yes`, isso ira gerar na raiz do nosso projeto um arquivo `package-json` com informações básicas:
+
+```json
+{
+  "name": "my_package",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+```
+
+- Agora adicionamos o Typescript.
+Existem duas maneiras básicas de iniciar um projeto com typescript, a primeira é instalando o Typescript localmente em nosso projeto, para isso utilizamos o comando ``
+
+
