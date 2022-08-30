@@ -23,7 +23,7 @@ Esse comando cria automaticamente um arquivo `.gitignore` com todos os arquivos 
 
 Para mais informações sobre `git` e GitHub: https://github.com
 
-## Iniciando o projeto e adicionando as primeiras dependências
+## Iniciando o projeto e configurando o Typescript
 
 - Para iniciarmos um novo projeto Node executamos o comando `npm init --yes`, isso ira gerar na raiz do nosso projeto um arquivo `package-json` com informações básicas:
 
@@ -73,4 +73,3 @@ Mas o que é o arquivo `tsconfig.json`? Segundo a documentação oficial do Type
   }
 }
 ```
-
