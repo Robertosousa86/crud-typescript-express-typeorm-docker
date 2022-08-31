@@ -73,3 +73,31 @@ Mas o que é o arquivo `tsconfig.json`? Segundo a documentação oficial do Type
   }
 }
 ```
+
+## Adicionando as primeiras dependências
+
+Como primeiras dependências de desenvolvimento iremos instalar os seguintes pacotes via npm(ou yarn, se preferir):
+
+- `ts-node`
+
+  O `ts-node` é um pacote npm que permite ao usuário executar arquivos Typescript diretamente, sem a necessidade de pré-compilação usando o `tsc`.
+
+- `@types/node`
+
+  Os `@types` são extensões de pacotes do npm para que eles também tenham compatibilidade com o Typescript, com o pacote `@types/node` o node conseguirá entender a sintaxe do Typescript.
+
+Para testar se nossas dependências foram instaladas corretamente vamos rodar um simples código que exibira um simpatico `Olá Typescript!`, para tanto vamos criar um `script` no nosso `package.json` para executa-lo:
+
+```json
+{
+  "name": "my_package",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node index.ts"
+  }
+```
+
+Substituímos o script `test` por `start` passando o comando `ts-node index.ts` e criamos o arquivo `index.ts` na raiz do projeto, como esse código é apenas um teste para sabermos se o Node está reconhecendo o Typescript vamos escrever apenas um `console.log('Olá Typescript!');`
+
+Para executarmos esse script rodamos o código `npm start` no terminal e se tudo der certo a saída deverá ser a frase `Olá Typescript!`.
