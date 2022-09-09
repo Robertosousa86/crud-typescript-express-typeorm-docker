@@ -101,3 +101,7 @@ Para testar se nossas dependências foram instaladas corretamente vamos rodar um
 Substituímos o script `test` por `start` passando o comando `ts-node index.ts` e criamos o arquivo `index.ts` na raiz do projeto, como esse código é apenas um teste para sabermos se o Node está reconhecendo o Typescript vamos escrever apenas um `console.log('Olá Typescript!');`
 
 Para executarmos esse script rodamos o código `npm start` no terminal e se tudo der certo a saída deverá ser a frase `Olá Typescript!`.
+
+## Criando o nosso servidor
+
+O proximo passa sera criar o nosso primeiro servidor Node, iremos utilizar uma biblioteca famosa por facilitar esse processo para isso; O `express`. Vamos instalar o `express` via npm digitando `npm install express`, a biblioteca sera instalada como dependência, mas como estamos utilizando o `Typescript` precisaremos da sua extensão para `typescript`, basta digitarmos `npm install @types/express -D`, desta vez o `express` sera instalado como uma dependência de desenvolvimento.
