@@ -104,4 +104,4 @@ Para executarmos esse script rodamos o código `npm start` no terminal e se tudo
 
 ## Criando o nosso servidor
 
-O proximo passa sera criar o nosso primeiro servidor Node, iremos utilizar uma biblioteca famosa por facilitar esse processo para isso; O `express`. Vamos instalar o `express` via npm digitando `npm install express`, a biblioteca sera instalada como dependência, mas como estamos utilizando o `Typescript` precisaremos da sua extensão para `typescript`, basta digitarmos `npm install @types/express -D`, desta vez o `express` sera instalado como uma dependência de desenvolvimento.
+O proximo passo sera criar o nosso primeiro servidor Node. Iremos utilizar uma biblioteca famosa por facilitar esse processo para isso; O `express`. Vamos instalar o `express` via npm digitando `npm install express`, a biblioteca sera instalada como dependência, mas como estamos utilizando o `Typescript` precisaremos da sua extensão para `typescript`, basta digitarmos `npm install @types/express -D`, desta vez o `express` sera instalado como uma dependência de desenvolvimento.
